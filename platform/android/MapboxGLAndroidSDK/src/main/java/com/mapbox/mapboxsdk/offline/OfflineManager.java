@@ -69,7 +69,7 @@ public class OfflineManager {
             @Override
             public void run() {
                 try {
-                    String path = context.getCacheDir().getAbsolutePath() + File.separator + DATABASE_NAME;
+                    String path = context.getCacheDir().getAbsolutePath() + File.separator + "mbgl-cache.db";
                     File file = new File(path);
                     if (file.exists()) {
                         file.delete();
