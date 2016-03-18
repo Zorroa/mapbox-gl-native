@@ -17,7 +17,7 @@ public class OfflineManager {
     private final static String LOG_TAG = "OfflineManager";
 
     // Default database name
-    private final static String DATABASE_NAME = "mbgl-cache.db";
+    private final static String DATABASE_NAME = "mbgl-offline.db";
 
     /*
      * The maximumCacheSize parameter is a limit applied to non-offline resources only,
